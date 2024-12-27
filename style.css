@@ -1,0 +1,164 @@
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 30px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 1fr 1fr 2fr 2fr 1fr 2fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.track {
+  height: 4px;
+  margin: 10px 0px;
+  background-color: black;
+}
+
+.first {
+  grid-column-start: 4;
+  grid-column-end: 9;
+}
+
+.first-angle {
+  grid-column-start: 9;
+  width: 110px;
+  grid-column-end: 12;
+  transform: rotate(40deg);
+  transform-origin: top left;
+  display: flex;
+  justify-content: end;
+}
+
+.second {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.third {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 14;
+}
+
+.fifth-angle {
+  grid-row-start: 5;
+  grid-column-start: 2;
+  width: 40px;
+  transform: rotate(40deg);
+  transform-origin: bottom right;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.fourth {
+  grid-row-start: 5;
+  grid-column-start: 3;
+  grid-column-end: 12;
+}
+
+.fourth-angle {
+  grid-row-start: 5;
+  grid-column-start: 12;
+  width: 40px;
+  transform: rotate(-40deg);
+  transform-origin: top left;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+
+.second-angle-one {
+  grid-row-start: 5;
+  grid-column-start: 5;
+  width: 40px;
+  transform: rotate(40deg);
+  transform-origin: top left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-angle-two {
+  grid-row-start: 6;
+  grid-column-start: 6;
+  width: 40px;
+  transform: rotate(40deg);
+  transform-origin: top left;
+  display: flex;
+  justify-content: end;
+}
+
+.second-angle-three {
+  grid-row-start: 7;
+  grid-column-start: 7;
+  width: 40px;
+  transform: rotate(40deg);
+  transform-origin: top left;
+  display: flex;
+  justify-content: end;
+}
+
+.fifth {
+  grid-row-start: 6;
+  grid-column-start: 6;
+  grid-column-end: 13;
+}
+
+.sixth {
+  grid-row-start: 7;
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.seventh {
+  grid-row-start: 7;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.third-angle {
+  grid-row-start: 7;
+  grid-column-start: 5;
+  width: 40px;
+  transform: rotate(40deg);
+  transform-origin: top left;
+  display: flex;
+  justify-content: end;
+}
+
+.eighth {
+  grid-row-start: 8;
+  grid-column-start: 4;
+  grid-column-end: 13;
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.black-button {
+  background-color: rgba(0, 0, 0, 0.721);
+}
+.red-button {
+  background-color: rgb(201, 9, 9);
+}
+.green-button {
+  background-color: rgb(13, 160, 13);
+}
+
+hr {
+  border: 1pt solid black;
+}
+
+.bright {
+  opacity: 0.33;
+}
